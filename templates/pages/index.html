@@ -1,0 +1,420 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{%  block content %}
+
+
+<!-- Navigation start -->
+<!-- Header Start --> 
+
+<nav class="navbar navbar-expand-lg bg-transprent py-4 fixed-top navigation" id="navbar">
+	<div class="container">
+	  <a class="navbar-brand" href="{% url 'home' %}">
+	  	<h2 class="logo">Debbie.</h2>
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="ti-view-list"></span>
+	  </button>
+  
+	  <div class="collapse navbar-collapse text-center" id="navbarsExample09">
+			<ul class="navbar-nav mx-auto">
+			  <li class="nav-item active">
+				<a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+			  </li>
+			   <!-- <li class="nav-item"><a class="nav-link smoth-scroll" href="#about">About</a></li>
+			   <li class="nav-item"><a class="nav-link smoth-scroll" href="#skillbar">Expertise</a></li> -->
+			   <li class="nav-item"><a class="nav-link smoth-scroll" href="#service">Services</a></li>
+			   <li class="nav-item"><a class="nav-link smoth-scroll" href="#portfolio">portfolio</a></li>
+			   <li class="nav-item"><a class="nav-link smoth-scroll" href="#blog">Blog</a></li>
+			   <li class="nav-item"><a class="nav-link smoth-scroll" href="#contact">Contact</a></li>
+			</ul>
+
+		  	<ul class="list-inline mb-0 ml-lg-4 nav-social">
+			  	<li class="list-inline-item"><a href=" https://web.facebook.com/ugomma.debbie"target="_blank" ><i class="ti-facebook"></i></a></li>
+			  	<li class="list-inline-item"><a href="https://www.linkedin.com/in/ugomma-deborah-ogu-8b9b429/ "target="_blank"><i class="ti-linkedin"></i></a></li>
+			  	<li class="list-inline-item"><a href="https://www.instagram.com/ugommaogu/ "target="_blank"><i class="ti-instagram"></i></a></li>
+		  	</ul>
+	  </div>
+	</div>
+</nav>
+
+
+<!-- Navigation End -->
+
+<!-- Banner start -->
+
+<!-- Slider Start -->
+<section class="slider py-7 ">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-5 col-sm-12 col-12 col-md-5">
+				<div class="slider-img position-relative">
+					<img src="{% static  'images/latestpic.jpg' %}" alt="" class="img-fluid w-100">
+				</div>
+			</div>
+
+			<div class="col-lg-6 col-12 col-md-7">
+				<div class="ml-5 position-relative mt-5 mt-lg-0">
+					<span class="head-trans">Ugomma</span>
+					<h1 class="font-weight-normal text-color text-md"><i class="ti-minus mr-2"></i>Web Developer</h1>
+					<h2 class="mt-3 text-lg mb-3 text-capitalize">Ugomma Ogu.</h2>
+					<p class="animated fadeInUp lead mt-4 mb-5 text-white-50 lh-35">I redefine innovation, somewhere between creativity, design and technology.I am a web developer and i love what i do.</p>
+					<a href=" " class="btn btn-solid-border">About Me</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Banner End -->
+
+<!-- About start -->
+<section class="section" id="about" data-aos="fade-up">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div class="row">
+					<div class="col-lg-4">
+						<h2><i class="ti-minus"></i>Me</h2>
+					</div>
+					<div class="col-lg-8">
+						<p class="text-white-50 text-md">Hello! I am <span class="text-white">Ugomma Deborah Ogu</span> a web developer & STEM Mentor. <span class="text-white">Designer & Developer</span> with work <span class="text-white">experience in</span> frontend and backend using frameworks.</p>
+						<p class="text-white-50 text-md">I enjoy the work i do and my ability to create beautiful concepts to deliver the best <span class="text-white">possible solutions</span> for my clients needs</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-6 mt-5 mt-lg-0 mt-md-0 col-md-6">
+				<div class="row">
+					<div class="col-lg-3">
+						<h2><i class="ti-minus"></i>Skills</h2>
+					</div>
+					<div class="col-lg-9 pl-5">
+						<p class="text-white-50 text-md">
+							My skillset span within Technology, Engineering and project design and mentoring . I also guide my clients to actualize their dreams, while giving support to other developers.						</p>
+
+						<ul class="list-unstyled lh-45">
+							<li> <i class="ti-check mr-3 text-color"></i><span class="text-white-50">Web Development</span> - HTML/CSS</li>
+						    <li><i class="ti-check mr-3 text-color"></i><span class="text-white-50">Database</span> - PostgresSQL</li>
+						    <li><i class="ti-check mr-3 text-color"></i><span class="text-white-50">Training/Mentoring</span> - HANDS-ON</li>
+						    <li><i class="ti-check mr-3 text-color"></i><span class="text-white-50">Project Design</span> - HYBRID/ONLINE</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+</section>
+<!-- About End -->
+
+<!-- Skills start -->
+<section class="section bg-gray" id="skillbar" data-aos="fade-up">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title text-center">
+					<span class="text-color mb-0 text-uppercase letter-spacing text-sm"><i class="ti-minus mr-2"></i>Skills Set</span>
+					<h2 class="title">Expertise</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class="mb-4 text-right"><h4 class="font-weight-normal">Html/CSS/Javascript </h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="80">
+							<span class="percent-text"><span class="count">70</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class="mb-4 text-right"><h4 class="font-weight-normal">PYTHON/DJANGO</h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="75">
+							<span class="percent-text"><span class="count">75</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class="mb-4 text-right"><h4 class="font-weight-normal">REACT</h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="70">
+							<span class="percent-text"><span class="count">70</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class="mb-4 text-right"><h4 class="font-weight-normal">WORDPRESS</h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="85">
+							<span class="percent-text"><span class="count">80</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class=" mb-4 text-right"><h4 class="font-weight-normal">Mentorship</h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="60">
+							<span class="percent-text"><span class="count">60</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class=" mb-4 text-right"><h4 class="font-weight-normal">Woo-Commerce</h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="82">
+							<span class="percent-text"><span class="count">82</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>	
+
+<!-- Skills End -->
+
+<!-- Service start -->
+<section class="section bg-gray" id="service" data-aos="fade-up">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title text-center">
+					<span class="text-color mb-0 text-uppercase letter-spacing text-sm"><i class="ti-minus mr-2"></i>What i do</span>
+					<h2 class="title">Services</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row no-gutters">
+			<div class="col-lg-4 col-md-6">
+				<div class="card p-5 rounded-0">
+					<i class="ti-layers text-lg-2 text-muted"></i>
+					<h3 class="my-4 text-capitalize">Wed Development</h3>
+					<p>I  design your imagination into a masterpiece of codes that suits your need and target, while offering value to your work.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="card p-5 rounded-0">
+					<i class="ti-user text-lg-2 text-muted"></i>
+					<h3 class="my-4 text-capitalize">Website Maintenance</h3>
+					<p>I also work effeciently with tools and applications that will make your website interactive and responsive for every user.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="card p-5 rounded-0">
+					<i class="ti-stats-up text-lg-2 text-muted"></i>
+					<h3 class="my-4 text-capitalize">Digital Consultancy</h3>
+					<p>When you are not clear on what you want, i help to guide in making the right choices and decisions that are top notch.</p>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="card p-5 rounded-0">
+					<i class="ti-android text-lg-2 text-muted"></i>
+					<h3 class="my-4 text-capitalize">Project Development</h3>
+					<p>I can  help you redefine and plan your project from design to completion, while offering satisfaction.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="card p-5 rounded-0">
+					<i class="ti-camera text-lg-2 text-muted"></i>
+					<h3 class="my-4 text-capitalize">STEAM Mentoring Plan</h3>
+					<p>I provide hands-on learning engagement for young people who are growing their career.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="card  p-5 rounded-0">
+					<i class="ti-desktop text-lg-2 text-muted"></i>
+					<h3 class="my-4 text-capitalize">Wordpress Development</h3>
+					<p>Do you need a simply beautiful  and easy to use website, i can grant your wish and more.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row align-items-center mt-5" data-aos="fade-up">
+			<div class="col-lg-6 mt-5">
+				<h2 class="mb-5 text-lg-2 text-white-50">Let's <span class="text-white">work together</span> on your next project </h2>
+			</div>
+			<div class="col-lg-4 ml-auto text-right">
+				<a href="#contact" class="btn btn-main text-white smoth-scroll">Hire Me</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Service End -->
+
+<!-- Portfolio start -->
+<section class="section" id="portfolio" data-aos="fade-up">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title text-center">
+					<span class="text-color mb-0 text-uppercase letter-spacing text-sm"><i class="ti-minus"></i>works</span>
+					<h2 class="title">Portfolio</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+        
+		<div class="row">
+            
+			<div class="post_gallery owl-carousel owl-theme">
+                {% if portfolio %}
+            {% for port in portfolio %} 
+				<div class="item">
+					<div class="portfolio-item position-relative">
+						<img src="{{port.photo.url}}" alt="" class="img-fluid">
+
+						<div class="portoflio-item-overlay">
+							<a href="{{port.url}}" target="_blank"><button>click here</button> </a>
+						</div>
+					</div>
+					<div class="text mt-3">
+						<h4 class="mb-1 text-capitalize">{{port.title}}</h4>
+						<p class="text-uppercase letter-spacing text-sm">{{port.description}}</p>
+					</div>
+				</div>
+                {% endfor %}
+                 {% endif %}
+				
+			</div>
+            
+		</div>
+        
+	</div>
+</section>
+<!-- Portfolio End -->
+
+
+<!-- Blog start -->
+<section class="section border-top-1" id="blog" data-aos="fade-up">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title text-center">
+					<span class="text-color mb-0 text-uppercase letter-spacing text-sm"> <i class="ti-minus mr-2"></i>blog news</span>
+					<h1 class="title">Latest Article</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<div class="position-relative blog-item mb-5 mb-lg-0">
+					<img src="{% static  'images/zuri1.jpg' %} " alt="blog-1" class="img-fluid">
+
+					<div class="blog-item-meta mb-3">
+						<span><i class="ti-user mr-2"></i>by Admin</span>
+						<span class="text-muted mx-2"> | </span>
+						<span class="text-white-50">Internship</span>
+					</div>
+
+					<div class="pl-4">
+						<a href="{% url 'home' %} "><h3 class="mb-4 ">How to start your career internship</h3></a>
+
+						<a href="{% url 'home' %}" class="learn-more text-uppercase text-sm"><i class="ti-arrow-right mr-2"></i>Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="position-relative blog-item mb-10 mb-lg-0">
+					<img src=" {% static  'images/i4G.jpg' %}" alt="blog-1" class="img-fluid">
+
+					<div class="blog-item-meta mb-3">
+						<span><i class="ti-user mr-2"></i>by Admin</span>
+						<span class="text-muted mx-2"> | </span>
+						<span class="text-white-50">Training</span>
+					</div>
+					<div class="pl-4">
+						<a href="{% url 'home' %}"><h3 class="mb-4">How to Incorporate Training into Your plans</h3></a>
+
+						<a href="{% url 'home' %}" class="learn-more text-uppercase text-sm"><i class="ti-arrow-right mr-2 show"></i>Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="position-relative blog-item mb-5 mb-lg-0">
+					<img src="{% static  'images/hng.png' %} " alt="blog-1" class="img-fluid">
+
+					<div class="blog-item-meta mb-3">
+						<span><i class="ti-user mr-2"></i>by Admin</span>
+						<span class="text-muted mx-2"> | </span>
+						<span class="text-white-50">Empowerment</span>
+					</div>
+					<div class="pl-4">
+						<a href="{% url 'home' %} "><h3 class="mb-4 ">The Value of empowerment in growth</h3></a>
+						<a href="{% url 'home' %} " class="learn-more text-uppercase text-sm"><i class="ti-arrow-right mr-2"></i>Learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Blog End -->
+
+<!-- Contact start -->
+<section class="section" id="contact" data-aos="fade-up">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title text-center">
+					<span class="text-color mb-0 text-uppercase letter-spacing text-sm"> <i class="ti-minus mr-2"></i>Contact</span>
+					<h1 class="title">Get in Touch</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+			   <form class="contact__form form-row contact-form" method="POST" action=""  id="contactForm">
+                        {% csrf_token %}
+				  <div class="row">
+                        <!-- <div class="col-12">
+                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                Your message was sent successfully.
+                            </div>
+                        </div> -->
+                    
+					  <div class="form-group col-lg-6 mb-5">
+						<input type="text" id="name" name="name" class="form-control bg-transparent" placeholder="Name*" required>
+					  </div>
+					  <div class="form-group col-lg-6 mb-5">
+						<input type="email" name="email" id="email" class="form-control bg-transparent" placeholder="Email*">
+					  </div>
+					  <div class="form-group col-lg-12 mb-5">
+						<input type="text" name="subject" id="subject" class="form-control bg-transparent" placeholder="Subject*">
+					  </div>
+					
+					  <div class="form-group col-lg-12 mb-5">
+						<textarea id="message" name="message" cols="30" rows="6" class="form-control bg-transparent" placeholder="Message"></textarea>
+						
+						<div class="text-center">
+							 <input class="btn btn-main text-white mt-5" id="submit" type="submit"  value="Send Message">
+						</div>
+					  </div>
+                </div>
+			</form>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Contact End -->
+
+{% endblock %}
