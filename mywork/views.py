@@ -16,6 +16,6 @@ def home(request):
 
         contact = Contact(name=name, email=email, subject=subject, message=message)
         contact.save()
-        return render(request, 'pages/index.html')
+        # return render(request, 'pages/index.html')
     return render(request, 'pages/index.html', {'portfolio' : portfolio})
 
