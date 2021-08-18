@@ -1,1 +1,1 @@
-WSGI_APPLICATION = 'myprofile.wsgi.application'
+web: gunicorn myprofile.wsgi
