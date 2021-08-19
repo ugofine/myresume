@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Contact, Port
 from django.contrib.auth.models import User
+from django.http import HttpResponse
 
 # Create your views here.
 
@@ -15,6 +16,7 @@ def home(request):
 
         contact = Contact(name=name, email=email, subject=subject, message=message)
         contact.save()
+        return HttpResponse('Contact form submitted')
 
     return render(request, 'pages/index.html', {'portfolio' : portfolio})
 
