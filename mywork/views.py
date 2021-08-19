@@ -1,6 +1,5 @@
 from django.shortcuts import render
-from portfolio.models import Port
-from .models import Contact
+from .models import Contact, Port
 from django.contrib.auth.models import User
 
 # Create your views here.
@@ -16,6 +15,6 @@ def home(request):
 
         contact = Contact(name=name, email=email, subject=subject, message=message)
         contact.save()
-        
+
     return render(request, 'pages/index.html', {'portfolio' : portfolio})
 
